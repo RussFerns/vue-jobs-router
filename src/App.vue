@@ -14,11 +14,11 @@
 
     <div class="navbar">
       <h4>Using non-SPA Routing</h4>
-      <a href="https://vue-jobs-router.herokuapp.com/">Home</a> | 
-      <a href="https://vue-jobs-router.herokuapp.com/jobs">Jobs</a> | 
-      <a href="https://vue-jobs-router.herokuapp.com/about">About</a> | 
-      <a href="https://vue-jobs-router.herokuapp.com/contact">Contact</a> | 
-      <a href="https://vue-jobs-router.herokuapp.com/admin">Admin</a>
+      <a href="./">Home</a> | 
+      <a href="./jobs">Jobs</a> | 
+      <a href="./about">About</a> | 
+      <a href="./contact">Contact</a> | 
+      <a href="./admin">Admin</a>
     </div>
     
 

@@ -19,22 +19,22 @@
 export default {
     data() {
         return {
-            jobs: []
-            // jobs: [
-            //     { id: 1, title: "Web Developer", details: "Lorem  consectetur adipisicing elit." },
-            //     { id: 2, title: "Web Designer", details: "corporis perferendis voluptatibus magni" },
-            //     { id: 3, title: "Technical Manager", details: "delectus dicta  ratione? Perferendis." },
-            //     { id: 4, title: "Technical Director", details: "ipsum dolor sit amet" },
-            //     { id: 5, title: "CIO", details: "Possimus veniam quaeratillo" },
-            // ]
+            // jobs: []
+            jobs: [
+                { id: 1, title: "Web Developer", details: "Lorem  consectetur adipisicing elit." },
+                { id: 2, title: "Web Designer", details: "corporis perferendis voluptatibus magni" },
+                { id: 3, title: "Technical Manager", details: "delectus dicta  ratione? Perferendis." },
+                { id: 4, title: "Technical Director", details: "ipsum dolor sit amet" },
+                { id: 5, title: "CIO", details: "Possimus veniam quaeratillo" },
+            ]
         }
     },
-    mounted() {
-        fetch('http://localhost:3000/jobs') 
-            .then((res) => res.json())
-            .then((data) => this.jobs = data)
-            .catch((err) => console.log(err.message))
-    }
+    // mounted() {
+    //     fetch('http://localhost:3000/jobs') 
+    //         .then((res) => res.json())
+    //         .then((data) => this.jobs = data)
+    //         .catch((err) => console.log(err.message))
+    // }
 }
 </script>
 

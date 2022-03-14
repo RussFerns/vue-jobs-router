@@ -1,0 +1,11 @@
+{
+    "jobs": [
+        { "id": 1, "title": "Web Developer", "details": "Lorem  consectetur adipisicing elit." },
+        { "id": 2, "title": "Web Designer", "details": "corporis perferendis voluptatibus magni" },
+        { "id": 3, "title": "Technical Manager", "details": "delectus dicta  ratione? Perferendis." },
+        { "id": 4, "title": "Technical Director", "details": "ipsum dolor sit amet" },
+        { "id": 5, "title": "CIO", "details": "Possimus veniam quaeratillo" }
+    ],
+    "blogs": [],
+    "departments": []
+}
